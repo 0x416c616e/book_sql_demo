@@ -1,0 +1,33 @@
+/*fake data to put into database for the demonstration*/
+INSERT INTO users (phone_number, username, email,
+confirmed_email, signup_date, user_password, account_locked)
+VALUES ('555-1235', 'coolguy123', 'joe@gmail.com',
+0, CURDATE(), 'letmein', 0),
+('555-5555', 'cubsfan99', 'cubs@example.com',
+1, CURDATE(), 'password123', 0),
+('555-1337', 'reader123', 'reader@read.edu',
+1, CURDATE(), 'books', 0),
+('555-4444', 'alice412', 'alice412@gmail.com',
+0, CURDATE(), 'helloworld', 1),
+('555-2345', 'bob973', 'bob@yahoo.com',
+1, CURDATE(), 'bob1970', 1),
+('555-3456', 'chris145', 'chris@outlook.com',
+0, CURDATE(), 'badpassword', 0),
+('555-4567', 'dan432', 'dan@example.com',
+0, CURDATE(), 'sql_is_fun', 1),
+('555-5678', 'testing123', 'test@asdasdasd',
+0, CURDATE(), 'hunter3', 0),
+('555-9372', 'spambot', 'bot@no',
+0, CURDATE(), 'beepboop', 0),
+('555-6789', 'admin', 'admin@localhost',
+1, CURDATE(), 'd97f842a101', 0),
+('555-7890', 'fakedata', 'fake@gmail.com',
+0, CURDATE(), 'qwerty', 0),
+('555-8901', 'whatever', 'fake@example.com',
+0, CURDATE(), '12345', 0),
+('555-9001', 'person12312', 'generic@whatever',
+0, CURDATE(), 'cool', 0),
+('555-3000', 'records555', 'music@gmail.com',
+0, CURDATE(), '1111111', 0);
+
+
