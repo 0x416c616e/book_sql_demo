@@ -1,0 +1,27 @@
+CREATE DATABASE duplicate_demo;
+USE duplicate_demo;
+CREATE TABLE union_demo(
+	num INT NOT NULL,
+    chars VARCHAR(10)
+);
+CREATE TABLE table_2(
+	num INT NOT NULL,
+    chars VARCHAR(10)
+);
+INSERT INTO union_demo (num, chars)
+VALUES (123, 'abc'),
+(123,'abc'),
+(456,'def'),
+(789, 'abc'),
+(777, 'www'),
+(678, 'xyz'),
+(632, 'asdaf');
+
+INSERT INTO table_2 (num, chars)
+VALUES (123, 'xyz'),
+(678, 'qwerty'),
+(111, 'aaa'),
+(456, 'aaa'),
+(777, 'www'),
+(678, 'qwerty'),
+(970, 'ghjkl');
