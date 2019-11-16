@@ -1,0 +1,12 @@
+INSERT INTO sales (quantity, price_per, product_name,
+product_sku, purchase_time, userID)
+VALUES (1, 15.20, "earbuds", 1236432, CURRENT_TIMESTAMP(), 1),
+(2, 19.99, "flash drive", 353430, CURRENT_TIMESTAMP(), 1),
+(1, 799.99, "laptop", 1947361, CURRENT_TIMESTAMP(), 10),
+(5, 499.99, "graphics card", 482045, CURRENT_TIMESTAMP(), 14),
+(3, 78.00, "solid state drive", 245435, CURRENT_TIMESTAMP(), 8),
+(1, 155.00, "network printer", 87653, CURRENT_TIMESTAMP(), 10),
+(1, 89.95, "speakers", 45332, CURRENT_TIMESTAMP(), 1),
+(2, 4.99, "printer paper", 32644, CURRENT_TIMESTAMP(), 6),
+(1, 5.99, "stapler", 4254399, CURRENT_TIMESTAMP(), 6),
+(1, 199.99, "tablet", 287676, CURRENT_TIMESTAMP(), 11);
